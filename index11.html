@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навчальний сайт з природознавства</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .navbar {
+            width: 180px;
+            background-color: #111;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 2px 0 5px rgba(255, 255, 255, 0.1);
+        }
+        .navbar a {
+            margin-bottom: 10px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+        .navbar img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+            object-fit: cover;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            border-bottom: 1px solid red;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #ffcc00;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .red-text {
+            color: red;
+        }
+        .yellow-text {
+            color: yellow;
+        }
+        .blue-text {
+            color: #3399ff;
+        }
+        .green-text {
+            color: #33cc33;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: red;
+            margin: 20px 0;
+        }
+        .solar-system-img {
+            float: right;
+            margin: 0 0 15px 15px;
+            max-width: 300px;
+        }
+        .planet-info {
+            margin-top: 20px;
+        }
+        .planet-list {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .home-button {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+        .home-button:hover {
+            color: #ffcc00;
+        }
+        .home-button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="home-button">
+        <img src="191129_007.jpg" alt="Головна">
+        Головна
+    </a>
+    
+    <h1>Навчальний сайт з природознавства</h1>
+    <hr>
+    
+    <div class="container">
+        <div class="navbar">
+            <h3>Планети</h3>
+            <a href="mercury.html">
+                <img src="меркурий.jpg" alt="Меркурій">
+                Меркурій
+            </a>
+            <a href="venus.html">
+                <img src="венера.jpg" alt="Венера">
+                Венера
+            </a>
+            <a href="earth.html">
+                <img src="земля.jpg" alt="Земля">
+                Земля
+            </a>
+            <a href="mars.html">
+                <img src="марс.jpg" alt="Марс">
+                Марс
+            </a>
+            <a href="jupiter.html">
+                <img src="юпитер.jpg" alt="Юпітер">
+                Юпітер
+            </a>
+            <a href="saturn.html">
+                <img src="сатурн.jpg" alt="Сатурн">
+                Сатурн
+            </a>
+            <a href="uranus.html">
+                <img src="уран.jpg" alt="Уран">
+                Уран
+            </a>
+            <a href="neptune.html">
+                <img src="нептун.jpg" alt="Нептун">
+                Нептун
+            </a>
+            <a href="pluto.html">
+                <img src="плутон.jpg" alt="Плутон">
+                Плутон
+            </a>
+        </div>
+        
+        <div class="content">
+            <h2 class="yellow-text">Знайомство із Сонячною системою</h2>
+            
+            <img src="Solar_sys8.jpg" alt="Сонячна система" class="solar-system-img"
+
+            <p>Тисячі років люди дивилися в нічне небо. Вони помічали, як яскраві вогники рухаються по небу, і мріяли хоч щось дізнатися про них. Вивчення планет почалося давно, коли перші астрономи помітили, що п'ять зірок (<i>планети, які можна бачити без телескопа</i>) яскравіші за інші.</p>
+            
+            <p class="red-text">Стародавні греки саме ці зірки і назвали <strong>планетами</strong>, що означає «мандрувати».</p>
+            
+            <p class="red-text">Римляне назвали ці п'ять планет на честь своїх богів:</p>
+            
+            <ul class="planet-list">
+                <li>Меркурій;</li>
+                <li>Венера;</li>
+                <li>Марс;</li>
+                <li>Юпітер;</li>
+                <li>Сатурн.</li>
+            </ul>
+            
+            <p>Інші планети відкрили пізніше.</p>
+            
+            <p>Закони руху планет навколо Сонця відкрив німецький учений <span class="green-text">Йоган Кеплер, а пояснив цей рух Ісак Ньютон</span>. Саме завдяки дії на планети <strong>сил всесвітнього тяжіння</strong>, вони не можуть полетіти в космічний простір, а рухаються навколо Сонця по еліптичних орбітах.</p>
+            
+            <h2 class="red-text">З'ясуйте, як оберталася планета Сонця, і саме Сонце утворило Сонячну систему</h2>
+            
+            <p>Одна з планет Сонячної системи близька за нашу Землю в 11 разів і майже – розміром із Місяць. Одна планета оточена кільцями пилу, а на землі температура поверхні сягає 482 °С. У одній планети є 21 супутник, подібний до нашого місяця, а деякі взагалі не мають супутників. Деякі тверді й вам знесть, інші складаються з газу.</p>
+            
+            <p>Сучасні вчені поділили планети на <span class="blue-text">земну групу</span> та <span class="red-text">гігантські</span>.</p>
+            
+            <p class="red-text">Внутрішні планети називають <strong>земними.
